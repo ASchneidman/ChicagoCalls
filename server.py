@@ -18,7 +18,7 @@ def alderman():
 
 @app.route('/success/<alderman>')
 def success(alderman):
-    return 'Your address is %s' % alderman
+    return render_template('result_page.html', add = alderman)
 
 if __name__ == '__main__':
     # Currently has debug stuff enabled

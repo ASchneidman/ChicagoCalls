@@ -21,5 +21,6 @@ def success(alderman):
     return 'Your address is %s' % alderman
 
 if __name__ == '__main__':
+    # Currently has debug stuff enabled
    app.debug = True
    app.run(debug=True)
